@@ -1,4 +1,6 @@
 export interface Ichart {
   x: number,
-  y: string
+  y: string,
+  z: string,
+  za: number
 }
