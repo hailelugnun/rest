@@ -2,5 +2,6 @@ export interface Ichart {
   x: number,
   y: string,
   z: string,
-  za: number
+  za: number,
+  zb: string
 }
