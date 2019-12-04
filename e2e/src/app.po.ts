@@ -10,6 +10,6 @@ export class AppPage {
   }
 
   getAppTitleText() {
-    return element(by.css('app-root .content')).getText() as Promise<string>;
+    return element(by.css(' .content')).getText() as Promise<string>;
   }
 }
