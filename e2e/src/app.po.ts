@@ -16,7 +16,7 @@ export class AppPage {
   }
 
   getATitleText() {
-
+  // secbranch - test
     return element(by.css('app-root .content')).getText() as Promise<string>;
 
   }
