@@ -15,10 +15,5 @@ export class AppPage {
 
   }
 
-  getATitleText() {
-
-    return element(by.css('app-root')).getText() as Promise<string>;
-
-  }
 
 }
